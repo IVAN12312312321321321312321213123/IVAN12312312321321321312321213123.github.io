@@ -41,7 +41,7 @@ ScreenGui.ResetOnSpawn = false
 ScreenGui.Enabled = false
 
 local BackFrame = Instance.new("Frame")
-BackFrame.Size = UDim2.new(0.9, 0, 0.5, 0)
+BackFrame.Size = UDim2.new(0.8, 0, 0.6, 0)  -- Larger size
 BackFrame.AnchorPoint = Vector2.new(0.5, 0.5)
 BackFrame.Position = UDim2.new(0.5, 0, 0.5, 0)
 BackFrame.SizeConstraint = Enum.SizeConstraint.RelativeYY
